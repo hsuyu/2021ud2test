@@ -3,11 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+<!-- Latest compiled JavaScript -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+
+<link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
 </head>
 <body>
-    <h1>Hi Hi</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus in molestiae perferendis distinctio voluptate ab a odio, nobis alias enim quisquam dolorem nemo ullam! Doloribus, facere. Hic quo enim libero!</p>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">H Beauty</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-100" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#who">who</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#what">what</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#where">where</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="who">
+          <div class="container-fluid text-center text-white bg-info py-5"> 
+              <h1 data-aos="flip-up">Who Am I?</h1>
+              <img src="https://picsum.photos/id/1003/400/" 
+              class="rounded-circle py-5"
+              alt="">
+              <h1>I am an adventure!</h1>
+          </div>
+          
+      </section>
+
+      <section id="what">
+          <div class="container-fluid bg-secondary text-center text-white  py-5">
+            <h1 class="animate__animated animate__bounce">What Am I?</h1>
+
+            <p class="py-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas temporibus corporis repellat, eius, qui architecto odio fugiat molestias autem ipsum, provident possimus assumenda dignissimos maxime doloremque magni doloribus inventore.
+            </p>
+            <button>Search</button>
+
+          </div>
+      </section>
+
+      <section id="where">
+          <div class="container-fluid text-center bg-light py-5">
+              <h1 class="pt-5">Where to Find Me?</h1>
+              <div class="row">
+                  
+                <div class="card col-md-4" >
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img class="card-img-bottom" src="https://picsum.photos/id/1056/200/" alt="Card image cap">
+                  </div>
+                  <div class="card col-md-4">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img class="card-img-bottom" src="https://picsum.photos/id/1066/200/" alt="Card image cap">
+                  </div>
+                  <div class="card col-md-4">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img class="card-img-bottom" src="https://picsum.photos/id/1023/200/" alt="Card image cap">
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <footer class="bg-dark text-white text-center py-5">
+          <p>Design by 1108211013 徐曼苹 &copy;</p>
+      </footer>
+
+      <script src="./node_modules/aos/dist/aos.js">
+        AOS.init();
+      </script>
+
+
+
+
 </body>
 </html>
